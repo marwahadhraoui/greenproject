@@ -1,12 +1,18 @@
 <?php
-
-	$host="localhost";
-	$user="root";
-	$pass="";
-	$database="greenproject";
-	$con = new mysqli($host,$user ,$pass, $database);
-	// Check connection
-	if ($con->connect_error) {
-  		die("Connection failed: " . $con->connect_error);
+$idcon=mysqli_connect("localhost","root","");
+if($idcon){
+    echo "Connexion établie avec le serveur <br>";
+	$okbd=mysqli_select_db($idcon,"greenproject");
+	if($okbd== TRUE)
+	{
+	echo "Base correct<br>";
 	}
-	//echo "Connected successfully <br>";
+	else
+	{
+    echo "Base incorrect<br>";
+	}
+}
+else
+{
+echo "Erreur de connexion avec le serveur <br>";
+}
