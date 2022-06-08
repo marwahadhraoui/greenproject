@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 07, 2022 at 08:56 PM
+-- Generation Time: Jun 08, 2022 at 12:56 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.9
 
@@ -64,6 +64,13 @@ CREATE TABLE `transactions` (
   `waste_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `transactions`
+--
+
+INSERT INTO `transactions` (`id`, `user_id`, `driver_id`, `waste_id`) VALUES
+(1, 1, 2, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -74,10 +81,18 @@ CREATE TABLE `user` (
   `immat` int(11) NOT NULL,
   `username` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL,
-  `email` varchar(20) NOT NULL,
+  `email` varchar(50) NOT NULL,
   `number` int(50) NOT NULL,
   `role` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`immat`, `username`, `password`, `email`, `number`, `role`) VALUES
+(1, 'aladdin', '123', 'ala.salhaoui.re@gmail.com', 12345678, 'USER'),
+(2, 'driver', '123', 'drive@gmail.com', 12345678, 'DRIVER');
 
 -- --------------------------------------------------------
 
@@ -93,6 +108,13 @@ CREATE TABLE `waste` (
   `poids` int(11) NOT NULL,
   `location` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `waste`
+--
+
+INSERT INTO `waste` (`id`, `title`, `volume`, `categorie`, `poids`, `location`) VALUES
+(1, 'Garage waste', 200, 'Normal', 20, 'Nabeul');
 
 --
 -- Indexes for dumped tables
@@ -130,13 +152,13 @@ ALTER TABLE `request`
 -- AUTO_INCREMENT for table `transactions`
 --
 ALTER TABLE `transactions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `immat` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `immat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

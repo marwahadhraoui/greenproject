@@ -1,5 +1,4 @@
 <?php
-session_start();
 include ("functions/connection.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +6,6 @@ include ("functions/connection.php"); ?>
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
 
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -30,20 +28,13 @@ include ("functions/connection.php"); ?>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Green - v4.7.0
-  * Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">The Green Project</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">The Green Project</a></h1>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -63,7 +54,7 @@ include ("functions/connection.php"); ?>
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="background-image: url(https://www.greenplanets.org/upload/slider_image/1406026160slider1.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to the <span>Green</span> Project</h2>
@@ -74,7 +65,6 @@ include ("functions/connection.php"); ?>
           </div>
         </div>
       </div>
-
     </div>
   </section><!-- End Hero -->
 
@@ -98,7 +88,11 @@ include ("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-journal"></i>
               </div>
+<<<<<<< HEAD
               <h4><a href="functions/login.html">Journal des transaction</a></h4>
+=======
+              <h4><a href="transactions.php">Journal des transaction</a></h4>
+>>>>>>> 9729a136cbfd8865b3f1eecd87bce8f57084c440
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
