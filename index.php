@@ -88,11 +88,7 @@ include ("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-journal"></i>
               </div>
-<<<<<<< HEAD
               <h4><a href="functions/login.html">Journal des transaction</a></h4>
-=======
-              <h4><a href="transactions.php">Journal des transaction</a></h4>
->>>>>>> 9729a136cbfd8865b3f1eecd87bce8f57084c440
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
