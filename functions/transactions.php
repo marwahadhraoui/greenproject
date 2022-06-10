@@ -1,5 +1,5 @@
 <?php
-include("functions/connection.php"); ?>
+include("connection.php"); ?>
 <!DOCTYPE html>
 <html>
 
@@ -50,22 +50,22 @@ include("functions/connection.php"); ?>
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -93,7 +93,7 @@ include("functions/connection.php"); ?>
         <div class="row">
             <?php
             $query = "SELECT * FROM transactions";
-            $result = mysqli_query($con, $query);
+            $result = mysqli_query($idcon, $query);
             echo '<table class="styled-table">  <thead>
     <tr>
       <th scope="col">#</th>
@@ -107,19 +107,19 @@ include("functions/connection.php"); ?>
                 //getting the username from user
                 $tmp_id = $row['user_id'];
                 $query = "SELECT username FROM user WHERE '$tmp_id' = immat";
-                $tmp_result = mysqli_query($con, $query);
+                $tmp_result = mysqli_query($idcon, $query);
                 $tmp_row = mysqli_fetch_array($tmp_result);
                 $tmp_user = $tmp_row['username'];
                 //getting the username from driver
                 $tmp_id = $row['driver_id'];
                 $query = "SELECT username FROM user WHERE '$tmp_id' = immat";
-                $tmp_result = mysqli_query($con, $query);
+                $tmp_result = mysqli_query($idcon, $query);
                 $tmp_row = mysqli_fetch_array($tmp_result);
                 $tmp_driver = $tmp_row['username'];
                 //getting title from waste
                 $tmp_id = $row['waste_id'];
                 $query = "SELECT title FROM waste WHERE '$tmp_id' = id";
-                $tmp_result = mysqli_query($con, $query);
+                $tmp_result = mysqli_query($idcon, $query);
                 $tmp_row = mysqli_fetch_array($tmp_result);
                 $tmp_waste = $tmp_row['title'];
 
@@ -129,7 +129,7 @@ include("functions/connection.php"); ?>
 
             echo "</table>";
             ?>
-            <nav id="navbar" class="navbar"><a class="getstarted scrollto" href="index.php">Back</a></nav>
+            <nav id="navbar" class="navbar"><a class="getstarted scrollto" href="../index.php">Back</a></nav>
         </div>
     </div>
 </body>

@@ -1,13 +1,13 @@
 <?php
 session_start();
-include ("functions/connection.php"); ?>
+include ("connection.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
 
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -101,7 +101,7 @@ include ("functions/connection.php"); ?>
                                 </svg>
                                 <i class="bi bi-journal"></i>
                             </div>
-                            <h4><a href="">Journal des transaction</a></h4>
+                            <h4><a href="transactions.php">Journal des transaction</a></h4>
                             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                         </div>
                     </div>

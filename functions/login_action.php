@@ -15,12 +15,12 @@ if ($result->num_rows > 0) {
         header("location:userpage.html");
       }
       else if($row["role"] == "CHAUFFEUR"){
-        header("location:chauffeurpage.html");
+        header("location:chauffeurpage.php");
       }
       else if($row["role"] =="GARDIEN" )
      {
        
-        header("location:gardienpage.html");
+        header("location:gardienpage.php");
 
      }
     
