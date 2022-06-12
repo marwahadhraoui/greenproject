@@ -22,7 +22,7 @@
 </head>
 <body>
 
-<form action="demandeaction.php" method="post">
+<form action="../functions/demandeaction.php" method="post">
 <h1>Demande emplacement</h1>
   <div class="form-group">
     <label for="location">Location</label>
