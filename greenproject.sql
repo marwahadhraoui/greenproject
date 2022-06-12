@@ -28,10 +28,12 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `bin` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL  AUTO_INCREMENT,
   `location` varchar(50) NOT NULL,
-  `storage` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `storage` int(11) NOT NULL,
+   `emp` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -40,14 +42,15 @@ CREATE TABLE `bin` (
 --
 
 CREATE TABLE `request` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `req-title` varchar(50) NOT NULL,
   `note` varchar(255) NOT NULL,
   `volume` int(50) NOT NULL,
   `categorie` varchar(50) NOT NULL,
   `location` varchar(50) NOT NULL,
-  `isValid` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `isValid` tinyint(1) NOT NULL,
+   PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7  DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `request`
@@ -109,13 +112,14 @@ INSERT INTO `user` (`immat`, `username`, `password`, `email`, `number`, `role`) 
 --
 
 CREATE TABLE `waste` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(50) NOT NULL,
   `volume` int(11) NOT NULL,
   `categorie` varchar(50) NOT NULL,
   `poids` int(11) NOT NULL,
-  `location` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `location` varchar(50) NOT NULL,
+   PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `waste`
