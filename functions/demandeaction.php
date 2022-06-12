@@ -8,5 +8,5 @@
         $benne->setloc("$vloc");
         $benne->setstoc("$vstor");
         $retour = $benne->ajouter();
-        header("location:ajoutbenne.php?retour=$retour");
+        header("location:../forms/ajoutbenne.php?retour=$retour");
 ?>
