@@ -152,7 +152,7 @@ include("connection.php"); ?>
                 </svg>
                 <i class="bi bi-list-ol"></i>
               </div>
-              <h4><a href="">Changer l'ordre de prise en charge</a></h4>
+              <h4><a href="priseEnCharge.html">Changer l'ordre de prise en charge</a></h4>
               <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
             </div>
           </div>

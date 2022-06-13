@@ -1,11 +1,11 @@
 <?php
 $idcon=mysqli_connect("localhost","root","");
 if($idcon){
-    echo "Connexion établie avec le serveur <br>";
+    // echo "Connexion établie avec le serveur <br>";
 	$okbd=mysqli_select_db($idcon,"greenproject");
 	if($okbd== TRUE)
 	{
-	echo "Base correct<br>";
+	// echo "Base correct<br>";
 	}
 	else
 	{
