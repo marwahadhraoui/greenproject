@@ -17,17 +17,17 @@
 	 justify-content: center;
 }
  .login {
-	 width: 970px;
+	 width: 900px;
 	 height: 750px;
 	 border-radius: 15px;
 	 display: flex;
-	 box-shadow: 0px 22px 65px rgba(227, 0, 162, 0.2);
+	 /*box-shadow: 0px 22px 65px rgba(227, 0, 162, 0.2);*/
 	 padding: 20px;
 }
  .login .image img {
-	 width: 440px;
-	 height: 640px;
-	 border-radius: 10px;
+	/* width: 300px;
+	 height: 500px;
+	 border-radius: 10px;*/
 }
  .login .details {
 	 margin-left: 90px;
