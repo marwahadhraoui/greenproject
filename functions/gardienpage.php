@@ -117,7 +117,7 @@ include ("connection.php"); ?>
                                 </svg>
                                 <i class="bi bi-hammer"></i>
                             </div>
-                            <h4><a href="consulterDemande.php">Conssulter les demandes</a></h4>
+                            <h4><a href="consulterDemande.php">Consulter les demandes</a></h4>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                         </div>
                     </div>

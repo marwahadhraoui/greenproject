@@ -110,7 +110,7 @@ include("connection.php"); ?>
                 </svg>
                 <i class="bi bi-hammer"></i>
               </div>
-              <h4><a href="consulterDemande.php">Conssulter les demandes</a></h4>
+              <h4><a href="consulterDemande.php">Consulter les demandes</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
@@ -124,7 +124,7 @@ include("connection.php"); ?>
                 </svg>
                 <i class="bi bi-ticket"></i>
               </div>
-              <h4><a href="route.php">Conssulter feuille de route</a></h4>
+              <h4><a href="route.php">Consulter feuille de route</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>

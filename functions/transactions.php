@@ -88,7 +88,7 @@ include("connection.php"); ?>
         </div>
     </header><!-- End Header -->
     <br><br><br><br><br><br><br><br><br>
-    <h1 style="text-align:center">Journal des transaction</h1>
+    <h1 style="text-align:center">Journal des Transactions</h1>
     <div class="container">
         <div class="row">
             <?php
