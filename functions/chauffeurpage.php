@@ -138,7 +138,7 @@ include("connection.php"); ?>
                 </svg>
                 <i class="bi bi-trash"></i>
               </div>
-              <h4><a href="">Tonnage de la benne</a></h4>
+              <h4><a href="../functions/tonnagebenne.php">Tonnage de la benne</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
