@@ -101,7 +101,7 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-hammer"></i>
               </div>
-              <h4><a href="functions/login.html">Consulter les demandes</a></h4>
+              <h4><a href="functions/consulterDemande.php">Consulter les demandes</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
@@ -129,7 +129,7 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-trash"></i>
               </div>
-              <h4><a href="functions/login.html">Tonnage de la benne</a></h4>
+              <h4><a href="functions/tonnagebenne.php">Tonnage de la benne</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
@@ -171,7 +171,7 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-tree"></i>
               </div>
-              <h4><a href="functions/login.html">Dépose des déchets végétaux</a></h4>
+              <h4><a href="functions/depotvegetaux.php">Dépose des déchets végétaux</a></h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
