@@ -87,8 +87,10 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-journal"></i>
               </div>
-              <h4><a href="functions/transactions.php">Journal des transaction</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="functions/transactions.php">Transaction log
+                </a></h4>
+              <p>
+                keep track of all the diffrent transactions, and it's public for everyone.</p>
             </div>
           </div>
 
@@ -101,8 +103,11 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-hammer"></i>
               </div>
-              <h4><a href="functions/login.html">Consulter les demandes</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="functions/login.html">View requests
+
+                </a></h4>
+              <p>each driver and caretaker must have visibility of all the requests being processed.
+              </p>
             </div>
           </div>
 
@@ -115,8 +120,9 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-ticket"></i>
               </div>
-              <h4><a href="functions/login.html">Consulter feuille de route</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="functions/login.html">Consult roadmap
+                </a></h4>
+              <p>Waste collection guards or drivers can find out the location of dumpsters via a map</p>
             </div>
           </div>
 
@@ -129,8 +135,8 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-trash"></i>
               </div>
-              <h4><a href="functions/login.html">Tonnage de la benne</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="functions/login.html">Tipper tonnage</a></h4>
+              <p>The digital solution should allow drivers to record the weight of waste emptied at the various outlets from the mobile solution.</p>
             </div>
           </div>
 
@@ -143,8 +149,8 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-list-ol"></i>
               </div>
-              <h4><a href="functions/login.html">Changer l'ordre de prise en charge</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="functions/login.html">Change pick up order</a></h4>
+              <p>The digital solution must include the ability for drivers to schedule work</p>
             </div>
           </div>
 
@@ -157,8 +163,8 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-save"></i>
               </div>
-              <h4><a href="functions/login.html">Enregistre le volume</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="functions/login.html">Save volume</a></h4>
+              <p>The digital solution must allow the caretaker via a nomadic solution to record the volumes of waste deposited by professional users</p>
             </div>
 
           </div>
@@ -171,8 +177,8 @@ include("functions/connection.php"); ?>
                 </svg>
                 <i class="bi bi-tree"></i>
               </div>
-              <h4><a href="functions/login.html">Dépose des déchets végétaux</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="functions/login.html">Removal of plant waste</a></h4>
+              <p>The digital solution must allow the guard to record the tonnages of plants deposited by all users</p>
             </div>
           </div>
 

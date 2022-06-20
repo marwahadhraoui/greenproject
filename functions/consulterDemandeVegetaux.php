@@ -1,7 +1,7 @@
 <?php
 //MARWA HADHRAOUI
 include "connection.php";
-$req = "SELECT * FROM request where isValid=0";
+$req = "SELECT * FROM request where isValid=0 and categorie='plants'";
 $res = mysqli_query($idcon, $req);
 ?>
 
@@ -18,7 +18,7 @@ $res = mysqli_query($idcon, $req);
 <body>
     <link href="../assets/css/style.css" rel="stylesheet">
   
-    <h1>Requests</h1>
+    <h1>List of plant depots</h1>
 
     <table id="customers" class="styled-table">
         <tr>
