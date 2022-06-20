@@ -1,55 +1,50 @@
-
 <!DOCTYPE html>
+<!-- MARWA HADHRAOUI -->
 <html lang="en">
-  <head>
-    <title>Sign up Page</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link href="../assets/css/signup.css" rel="stylesheet">
+<head>
+  <title>Sign up Page</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+  <link href="../assets/css/signup.css" rel="stylesheet">
 
 
-    
-  </head>
-  <body>
-    <div class="background">
-      <div class="shape"></div>
-      <div class="shape"></div>
-      
+
+</head>
+
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+
+  </div>
+  <form class="signup" action="signup_action.php" method="post">
+    <h3>Sign Up Here</h3>
+
+
+    <label for="">Username</label>
+    <input type="text" placeholder="Enter your username" name="username" />
+
+    <label for="">Phone</label>
+    <input type="number" placeholder="Enter your phone number" name="phone" />
+
+
+    <label for="">Email</label>
+    <input type="email" placeholder="Enter your Email" name="email" />
+
+    <label for="">Password</label>
+    <input type="password" placeholder="Password" name="password" />
+
+    <input type="submit" value="Sign Up" class="login-button" />
+
+    <div class="social">
+      <a href="login.html"><span class="signup">You Might Login Here</span></a>
     </div>
-    <form class="signup" action="signup_action.php" method="post">
-       <h3>Sign Up Here</h3> 
-   
+  </form>
+  <a href="../index.php"><span class="return">return to Home</span></a>
 
-      <label for="">Username</label>
-      <input type="text" placeholder="Enter your username" name="username" />
+</body>
 
-      <label for="">Phone</label>
-      <input type="number" placeholder="Enter your phone number" name="phone" />
-
-
-      <label for="">Email</label>
-      <input type="email" placeholder="Enter your Email" name="email" />
-
-      <label for="">Password</label>
-      <input type="password" placeholder="Password" name="password" />
-
-      <input type="submit" value="Sign Up" class="login-button" />
-
-      <div class="social">
-        <a href="login.html"
-          ><span class="signup">You Might Login Here</span></a
-        >
-      </div>
-    </form>
-    <a href="../index.php"><span class="return">return to Home</span></a>
-
-  </body>
 </html>

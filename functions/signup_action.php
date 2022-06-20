@@ -1,4 +1,5 @@
-   <?php  
+<?php
+    //MARWA HADHRAOUI
     include "connection.php";
     $username = $_POST['username'];
     $email = $_POST['email'];

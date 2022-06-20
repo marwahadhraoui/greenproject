@@ -1,4 +1,5 @@
 <?php
+//ALADDIN SALHAOUI
 include("connection.php"); ?>
 <!DOCTYPE html>
 <html>
@@ -129,7 +130,7 @@ include("connection.php"); ?>
 
             echo "</table>";
             ?>
-            <nav id="navbar" class="navbar"><a class="getstarted scrollto" href="../index.php">Back</a></nav>
+            <nav id="navbar" class="navbar"><a class="getstarted scrollto" onclick="history.back()">Back</a></nav>
         </div>
     </div>
 </body>

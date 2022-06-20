@@ -1,4 +1,5 @@
 <?php
+//MARWA HADHRAOUI
 include "connection.php";
 $req = "SELECT * FROM request where isValid=0";
 $res = mysqli_query($idcon, $req);
@@ -82,8 +83,9 @@ $res = mysqli_query($idcon, $req);
 
     </table>
     <button type="submit" name="submit" class="button button1">Save when you validate a request</button>
-        
+    
         </form>
+        <a class="getstarted scrollto" onclick="history.back()">Back</a>
 </body>
 
 </html>

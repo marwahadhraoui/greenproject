@@ -1,3 +1,4 @@
+<!-- ALADDIN SALHAOUI     -->
     <!-- Favicons -->
     <link href="../assets/img/favicon.png" rel="icon">
     <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -57,5 +58,5 @@
             </style>
         </div>
         <br>
-        <nav id="navbar" class="navbar"><a class="getstarted scrollto" href="../index.php">Back</a></nav>
+        <nav id="navbar" class="navbar"><a class="getstarted scrollto" onclick="history.back()">Back</a></nav>
     </div>
