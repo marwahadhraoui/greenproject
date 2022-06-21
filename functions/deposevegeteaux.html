@@ -87,16 +87,17 @@
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                     <form action="deposevegeteaux_action.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <label for="name">Waste Category</label>
-                                <input type="text" name="categorie" class="form-control" id="name" required>
-                            </div>
-                            <div class="form-group col-md-6 mt-3 mt-md-0">
-                                <label for="name">Volume(kg)</label>
-                                <input type="text" class="form-control" name="volume" id="email" required>
-                            </div>
+                        <div class="form-group mt-3">
+                            <label for="name">Request Title</label>
+                            <input type="text" class="form-control" name="title" id="title" required>
                         </div>
+                        
+                           
+                            <div class="form-group mt-3">
+                                <label for="name">Volume(kg)</label>
+                                <input type="number" class="form-control" name="volume" id="email" required>
+                            </div>
+                        
                         <div class="form-group mt-3">
                             <label for="name">Votre gouvernorat</label>
                             <input type="text" class="form-control" name="gouvernorat" id="subject" required>

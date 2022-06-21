@@ -88,6 +88,10 @@
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                     <form action="deposeDechets_action.php" method="post" role="form" class="php-email-form">
+                        <div class="form-group mt-3">
+                            <label for="name">Request Title</label>
+                            <input type="text" class="form-control" name="title" id="title" required>
+                        </div>
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Waste Category</label>
@@ -95,7 +99,7 @@
                             </div>
                             <div class="form-group col-md-6 mt-3 mt-md-0">
                                 <label for="name">Volume(kg)</label>
-                                <input type="text" class="form-control" name="volume" id="email" required>
+                                <input type="number" class="form-control" name="volume" id="email" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
@@ -104,7 +108,7 @@
                         </div>
                         <div class="form-group mt-3">
                             <label for="name">Message</label>
-                            <textarea class="form-control" name="Message" rows="10" required></textarea>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>

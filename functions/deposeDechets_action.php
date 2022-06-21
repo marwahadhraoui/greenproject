@@ -1,12 +1,13 @@
 <?php  
     include "connection.php";
+    $title = $_POST['title'];
     $categorie = $_POST['categorie'];
     $Volume = $_POST['volume'];
     $gouvernorat = $_POST['gouvernorat'];
-    $Message = $_POST['Message'];
+    $Message = $_POST['message'];
     
   
-$req = "INSERT INTO request(categorie,volume,location,note,req_title,isValid) VALUES('$categorie','$Volume','$gouvernorat','$Message','depot de dechets','0')";
+$req = "INSERT INTO request(categorie,volume,location,note,req_title,isValid) VALUES('$categorie','$Volume','$gouvernorat','$Message','$title','0')";
 
 $ok= mysqli_query($idcon,$req);
 
@@ -24,5 +25,5 @@ else
 
 
 
-?>
+
 
